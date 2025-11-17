@@ -71,4 +71,4 @@ jobs:
 
     - name: Format code with ruff
       run: |
-        uvx ruff format --check
+        uvx ruff format --check .
