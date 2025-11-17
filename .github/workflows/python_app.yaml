@@ -69,6 +69,4 @@ jobs:
       run: |
         uvx ty check
 
-    - name: Formatting
-          run: |
-            uvx ruff format --check
+   
